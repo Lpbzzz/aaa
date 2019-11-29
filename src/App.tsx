@@ -1,14 +1,24 @@
-import React from 'react';
+import React, {useState} from 'react';
 
-import { Button } from 'antd';
+import {Button} from 'antd';
 
 
 const App: React.FC = () => {
-  return (
-    <div className="App">
-      <Button type="primary">Button</Button>
-    </div>
-  );
+
+
+    const [count, setCount] = useState(0)
+    return (
+        <div className="App">
+            <Button type="primary" onClick={() => {
+                setCount(count + 1)
+            }}>
+                Button
+            </Button>
+            {
+                count
+            }
+        </div>
+    );
 }
 
 export default App;
