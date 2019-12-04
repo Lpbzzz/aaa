@@ -2,6 +2,7 @@
   <dictionary name="46257">
     <words>
       <w>autoprefixer</w>
+      <w>axios</w>
       <w>browserslist</w>
       <w>dotenv</w>
       <w>flexbox</w>

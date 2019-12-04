@@ -5,13 +5,21 @@ import {Button} from 'antd';
 
 const App: React.FC = () => {
 
+    const [count, setCount] = useState<number>(0);
+    const fet = (): number => {
+        return 3
+    };
 
-    const [count, setCount] = useState(0)
+
     return (
         <div className="App">
-            <Button type="primary" onClick={() => {
-                setCount(count + 1)
-            }}>
+            <Button
+                onClick={() => {
+                    setCount(count + 1)
+                    fet()
+                }}
+                type="primary"
+            >
                 Button
             </Button>
             {
@@ -19,6 +27,6 @@ const App: React.FC = () => {
             }
         </div>
     );
-}
+};
 
 export default App;
