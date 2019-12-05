@@ -1,12 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9a3e99e6-c8cb-440a-9872-63bffba391e8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.eslintrc.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/46257.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dictionaries/46257.xml" afterDir="false" />
+    <list default="true" id="9a3e99e6-c8cb-440a-9872-63bffba391e8" name="Default Changelist" comment="add dva but uncompleted">
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/models/app.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/setupProxy.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/eslintPlugin.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/eslintPlugin.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/webpack.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/config/webpack.config.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -37,7 +43,7 @@
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="yarn" />
-    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+    <property name="settings.editor.selected.configurable" value="com.eslint.settings.ESLintSettingsPage" />
     <property name="ts.external.directory.path" value="C:\Company\rebuild-xchw\node_modules\typescript\lib" />
   </component>
   <component name="RunManager">
@@ -84,7 +90,8 @@
       <workItem from="1575359663119" duration="347000" />
       <workItem from="1575360019632" duration="730000" />
       <workItem from="1575430036942" duration="207000" />
-      <workItem from="1575430258279" duration="1709000" />
+      <workItem from="1575430258279" duration="9133000" />
+      <workItem from="1575529463305" duration="2751000" />
     </task>
     <servers />
   </component>
@@ -104,34 +111,50 @@
       </map>
     </option>
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="add dva but uncompleted" />
+    <option name="LAST_COMMIT_MESSAGE" value="add dva but uncompleted" />
+  </component>
   <component name="WindowStateProjectService">
     <state x="772" y="271" key="#ESLint" timestamp="1575431863065">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="772" y="271" key="#ESLint/0.0.2560.1400/2560.0.1920.1040@0.0.2560.1400" timestamp="1575431863065" />
+    <state x="390" y="85" key="CommitChangelistDialog2" timestamp="1575539622859">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="390" y="85" key="CommitChangelistDialog2/0.0.2560.1400/2560.0.1920.1040@0.0.2560.1400" timestamp="1575539622859" />
+    <state x="0" y="83" key="DiffContextDialog" timestamp="1575539506234">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="0" y="83" key="DiffContextDialog/0.0.2560.1400/2560.0.1920.1040@0.0.2560.1400" timestamp="1575539506234" />
     <state x="871" y="347" key="FileChooserDialogImpl" timestamp="1575431429785">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="871" y="347" key="FileChooserDialogImpl/0.0.2560.1400/2560.0.1920.1040@0.0.2560.1400" timestamp="1575431429785" />
-    <state width="2534" height="288" key="GridCell.Tab.0.bottom" timestamp="1575359745805">
+    <state width="1691" height="296" key="GridCell.Tab.0.bottom" timestamp="1575539462611">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2534" height="288" key="GridCell.Tab.0.bottom/0.0.2560.1400/2560.0.1920.1040@0.0.2560.1400" timestamp="1575359745805" />
-    <state width="2534" height="288" key="GridCell.Tab.0.center" timestamp="1575359745805">
+    <state width="1691" height="296" key="GridCell.Tab.0.bottom/0.0.2560.1400/2560.0.1920.1040@0.0.2560.1400" timestamp="1575539462611" />
+    <state width="1691" height="296" key="GridCell.Tab.0.center" timestamp="1575539462610">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2534" height="288" key="GridCell.Tab.0.center/0.0.2560.1400/2560.0.1920.1040@0.0.2560.1400" timestamp="1575359745805" />
-    <state width="2534" height="288" key="GridCell.Tab.0.left" timestamp="1575359745805">
+    <state width="1691" height="296" key="GridCell.Tab.0.center/0.0.2560.1400/2560.0.1920.1040@0.0.2560.1400" timestamp="1575539462610" />
+    <state width="1691" height="296" key="GridCell.Tab.0.left" timestamp="1575539462610">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2534" height="288" key="GridCell.Tab.0.left/0.0.2560.1400/2560.0.1920.1040@0.0.2560.1400" timestamp="1575359745805" />
-    <state width="2534" height="288" key="GridCell.Tab.0.right" timestamp="1575359745805">
+    <state width="1691" height="296" key="GridCell.Tab.0.left/0.0.2560.1400/2560.0.1920.1040@0.0.2560.1400" timestamp="1575539462610" />
+    <state width="1691" height="296" key="GridCell.Tab.0.right" timestamp="1575539462610">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2534" height="288" key="GridCell.Tab.0.right/0.0.2560.1400/2560.0.1920.1040@0.0.2560.1400" timestamp="1575359745805" />
-    <state x="526" y="212" width="1230" height="883" key="SettingsEditor" timestamp="1575431560598">
+    <state width="1691" height="296" key="GridCell.Tab.0.right/0.0.2560.1400/2560.0.1920.1040@0.0.2560.1400" timestamp="1575539462610" />
+    <state x="526" y="212" width="1230" height="883" key="SettingsEditor" timestamp="1575440168113">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="526" y="212" width="1230" height="883" key="SettingsEditor/0.0.2560.1400/2560.0.1920.1040@0.0.2560.1400" timestamp="1575431560598" />
+    <state x="526" y="212" width="1230" height="883" key="SettingsEditor/0.0.2560.1400/2560.0.1920.1040@0.0.2560.1400" timestamp="1575440168113" />
+    <state x="355" y="326" key="Vcs.Push.Dialog.v2" timestamp="1575539633841">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="355" y="326" key="Vcs.Push.Dialog.v2/0.0.2560.1400/2560.0.1920.1040@0.0.2560.1400" timestamp="1575539633841" />
   </component>
 </project>
