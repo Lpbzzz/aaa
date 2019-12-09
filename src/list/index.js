@@ -5,12 +5,16 @@
  */
 import React from 'react'
 import { connect } from 'dva'
+import Show from "@/list/show";
 
 
 function App(props){
     console.log('props', props)
     return (
-        <div>2224</div>
+        <div>
+            <Show/>
+            333
+        </div>
     )
 }
 
