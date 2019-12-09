@@ -4,8 +4,6 @@ import Qs from 'qs'
 
 import {Button, Descriptions} from 'antd';
 
-// import style from './app.style'
-
 
 const App: React.FC = () => {
     const [count, setCount] = useState<number>(0);

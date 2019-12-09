@@ -16,9 +16,9 @@ function RouterConfig({history, app}) {
 	return (
 		<Router history={history}>
 			<Switch>
-				<Route path="/list" exact component={List}/>
-				<Route path="/app" exact component={App}/>
-				<Route path="/show" exact component={Show}/>
+				<Route path="/list" exact component={() => <List/>}/>
+				<Route path="/app" exact component={() => <App/>}/>
+				<Route path="/show" exact component={() => <Show/>}/>
 			</Switch>
 		</Router>
 	);
