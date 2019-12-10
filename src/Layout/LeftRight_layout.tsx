@@ -7,10 +7,10 @@ interface IRegisterUser {
 }
 
 
-let RegisterUser: React.FC<IRegisterUser> = ({Left, Right}) => {
+let RegisterUser: React.FC<IRegisterUser> = () => {
     return (
         <div>
-            leftRight
+            11111
         </div>
     );
 };
