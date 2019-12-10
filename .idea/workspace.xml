@@ -2,16 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9a3e99e6-c8cb-440a-9872-63bffba391e8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.babelrc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/paths.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Layout/LeftRight_layout.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/rebuild-xchw.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/rebuild-xchw.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config-overrides.js" beforeDir="false" afterPath="$PROJECT_DIR$/config-overrides.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.webpackalias.js" beforeDir="false" afterPath="$PROJECT_DIR$/.webpackalias.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/list/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/list/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/list/show.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/list/show.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/@types/definition.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/@types/definition.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/list/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/list/show.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/router.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/router.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/tsconfig.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,6 +26,12 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="JsFlowSettings">
+    <service-enabled>true</service-enabled>
+    <exe-path />
+    <other-services-enabled>true</other-services-enabled>
+    <auto-save>true</auto-save>
   </component>
   <component name="ProjectId" id="1UH1Jk15DjAMiMVcuMLQ4moKTjU" />
   <component name="ProjectViewState">
@@ -35,10 +47,13 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$/.webpackalias.js" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.standard" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.path.for.package.standard" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.standard" value="" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="yarn" />
@@ -98,7 +113,18 @@
       <workItem from="1575529463305" duration="3458000" />
       <workItem from="1575611031117" duration="3590000" />
       <workItem from="1575853426516" duration="37000" />
-      <workItem from="1575853479889" duration="4803000" />
+      <workItem from="1575853479889" duration="13216000" />
+      <workItem from="1575946432734" duration="2656000" />
+      <workItem from="1575949245789" duration="74000" />
+      <workItem from="1575949334111" duration="402000" />
+      <workItem from="1575949750097" duration="25000" />
+      <workItem from="1575949787197" duration="54000" />
+      <workItem from="1575949853567" duration="25000" />
+      <workItem from="1575949891011" duration="873000" />
+      <workItem from="1575950776800" duration="1511000" />
+      <workItem from="1575956486565" duration="1781000" />
+      <workItem from="1575959439514" duration="1470000" />
+      <workItem from="1575960926779" duration="3394000" />
     </task>
     <task id="LOCAL-00001" summary="add dva but uncompleted">
       <created>1575539604301</created>
@@ -142,6 +168,10 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="772" y="271" key="#ESLint/0.0.2560.1400/2560.0.1920.1040@0.0.2560.1400" timestamp="1575431863065" />
+    <state x="553" y="458" key="#com.intellij.ide.actions.ChooseComponentsToExportDialog" timestamp="1575956472708">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="553" y="458" key="#com.intellij.ide.actions.ChooseComponentsToExportDialog/0.0.2560.1400/2560.0.1920.1040@0.0.2560.1400" timestamp="1575956472708" />
     <state x="390" y="85" key="CommitChangelistDialog2" timestamp="1575539641012">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
@@ -150,37 +180,50 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="0" y="83" key="DiffContextDialog/0.0.2560.1400/2560.0.1920.1040@0.0.2560.1400" timestamp="1575539506234" />
-    <state x="871" y="347" key="FileChooserDialogImpl" timestamp="1575854733442">
+    <state x="871" y="347" key="FileChooserDialogImpl" timestamp="1575962935816">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="871" y="347" key="FileChooserDialogImpl/0.0.2560.1400/2560.0.1920.1040@0.0.2560.1400" timestamp="1575854733442" />
-    <state width="1846" height="226" key="GridCell.Tab.0.bottom" timestamp="1575858731879">
+    <state x="871" y="347" key="FileChooserDialogImpl/0.0.2560.1400/2560.0.1920.1040@0.0.2560.1400" timestamp="1575962935816" />
+    <state width="1768" height="222" key="GridCell.Tab.0.bottom" timestamp="1575961506631">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="1846" height="226" key="GridCell.Tab.0.bottom/0.0.2560.1400/2560.0.1920.1040@0.0.2560.1400" timestamp="1575858731879" />
-    <state width="1846" height="226" key="GridCell.Tab.0.center" timestamp="1575858731878">
+    <state width="1768" height="222" key="GridCell.Tab.0.bottom/0.0.2560.1400/2560.0.1920.1040@0.0.2560.1400" timestamp="1575961506631" />
+    <state width="1768" height="222" key="GridCell.Tab.0.center" timestamp="1575961506630">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="1846" height="226" key="GridCell.Tab.0.center/0.0.2560.1400/2560.0.1920.1040@0.0.2560.1400" timestamp="1575858731878" />
-    <state width="1846" height="226" key="GridCell.Tab.0.left" timestamp="1575858731878">
+    <state width="1768" height="222" key="GridCell.Tab.0.center/0.0.2560.1400/2560.0.1920.1040@0.0.2560.1400" timestamp="1575961506630" />
+    <state width="1768" height="222" key="GridCell.Tab.0.left" timestamp="1575961506630">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="1846" height="226" key="GridCell.Tab.0.left/0.0.2560.1400/2560.0.1920.1040@0.0.2560.1400" timestamp="1575858731878" />
-    <state width="1846" height="226" key="GridCell.Tab.0.right" timestamp="1575858731879">
+    <state width="1768" height="222" key="GridCell.Tab.0.left/0.0.2560.1400/2560.0.1920.1040@0.0.2560.1400" timestamp="1575961506630" />
+    <state width="1768" height="222" key="GridCell.Tab.0.right" timestamp="1575961506630">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="1846" height="226" key="GridCell.Tab.0.right/0.0.2560.1400/2560.0.1920.1040@0.0.2560.1400" timestamp="1575858731879" />
-    <state x="526" y="212" width="1230" height="883" key="SettingsEditor" timestamp="1575854735341">
+    <state width="1768" height="222" key="GridCell.Tab.0.right/0.0.2560.1400/2560.0.1920.1040@0.0.2560.1400" timestamp="1575961506630" />
+    <state x="629" y="173" width="1469" height="883" key="SettingsEditor" timestamp="1575962936923">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="526" y="212" width="1230" height="883" key="SettingsEditor/0.0.2560.1400/2560.0.1920.1040@0.0.2560.1400" timestamp="1575854735341" />
+    <state x="629" y="173" width="1469" height="883" key="SettingsEditor/0.0.2560.1400/2560.0.1920.1040@0.0.2560.1400" timestamp="1575962936923" />
     <state x="355" y="326" key="Vcs.Push.Dialog.v2" timestamp="1575539650798">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="355" y="326" key="Vcs.Push.Dialog.v2/0.0.2560.1400/2560.0.1920.1040@0.0.2560.1400" timestamp="1575539650798" />
-    <state x="553" y="316" width="782" height="684" key="find.popup" timestamp="1575858040156">
+    <state x="553" y="316" width="782" height="684" key="find.popup" timestamp="1575944608868">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="553" y="316" width="782" height="684" key="find.popup/0.0.2560.1400/2560.0.1920.1040@0.0.2560.1400" timestamp="1575858040156" />
+    <state x="553" y="316" width="782" height="684" key="find.popup/0.0.2560.1400/2560.0.1920.1040@0.0.2560.1400" timestamp="1575944608868" />
+    <state x="2974" y="377" key="org.intellij.images.editor.actions.BackgroundImageDialog" timestamp="1575950585159">
+      <screen x="2560" y="0" width="1920" height="1040" />
+    </state>
+    <state x="2974" y="377" key="org.intellij.images.editor.actions.BackgroundImageDialog/0.0.2560.1400/2560.0.1920.1040@0.0.2560.1400" timestamp="1575950585159" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand>
+      <path>
+        <item name="rebuild-xchw" type="b2602c69:ProjectViewProjectNode" />
+        <item name="rebuild-xchw" type="462c0819:PsiDirectoryNode" />
+      </path>
+    </expand>
+    <select />
   </component>
 </project>
