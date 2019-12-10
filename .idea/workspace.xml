@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9a3e99e6-c8cb-440a-9872-63bffba391e8" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.webpackalias.js" beforeDir="false" afterPath="$PROJECT_DIR$/.webpackalias.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/paths.json" beforeDir="false" afterPath="$PROJECT_DIR$/paths.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Left.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Left.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/index.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -28,9 +30,10 @@
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="javascript.nodejs.core.library.configured.version" value="10.15.3" />
+    <property name="javascript.nodejs.core.library.configured.version" value="10.16.3" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/.webpackalias.js" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.standard" value="true" />
@@ -44,8 +47,8 @@
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="yarn" />
-    <property name="settings.editor.selected.configurable" value="settings.webpack" />
-    <property name="ts.external.directory.path" value="C:\Company\rebuild-xchw\node_modules\typescript\lib" />
+    <property name="settings.editor.selected.configurable" value="preferences.fileTypes" />
+    <property name="ts.external.directory.path" value="C:\react\copy_system\node_modules\typescript\lib" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -113,6 +116,7 @@
       <workItem from="1575959439514" duration="1470000" />
       <workItem from="1575960926779" duration="3394000" />
       <workItem from="1575966646449" duration="1788000" />
+      <workItem from="1575979368931" duration="2426000" />
     </task>
     <task id="LOCAL-00001" summary="add dva but uncompleted">
       <created>1575539604301</created>
@@ -172,26 +176,35 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="871" y="347" key="FileChooserDialogImpl/0.0.2560.1400/2560.0.1920.1040@0.0.2560.1400" timestamp="1575962935816" />
-    <state width="1768" height="222" key="GridCell.Tab.0.bottom" timestamp="1575961506631">
+    <state width="2534" height="363" key="GridCell.Tab.0.bottom" timestamp="1575979399900">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state width="1768" height="222" key="GridCell.Tab.0.bottom/0.0.2560.1400/2560.0.1920.1040@0.0.2560.1400" timestamp="1575961506631" />
-    <state width="1768" height="222" key="GridCell.Tab.0.center" timestamp="1575961506630">
+    <state width="2534" height="363" key="GridCell.Tab.0.bottom/0.0.2560.1400@0.0.2560.1400" timestamp="1575979399900" />
+    <state width="2534" height="363" key="GridCell.Tab.0.center" timestamp="1575979399900">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state width="1768" height="222" key="GridCell.Tab.0.center/0.0.2560.1400/2560.0.1920.1040@0.0.2560.1400" timestamp="1575961506630" />
-    <state width="1768" height="222" key="GridCell.Tab.0.left" timestamp="1575961506630">
+    <state width="2534" height="363" key="GridCell.Tab.0.center/0.0.2560.1400@0.0.2560.1400" timestamp="1575979399900" />
+    <state width="2534" height="363" key="GridCell.Tab.0.left" timestamp="1575979399900">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state width="1768" height="222" key="GridCell.Tab.0.left/0.0.2560.1400/2560.0.1920.1040@0.0.2560.1400" timestamp="1575961506630" />
-    <state width="1768" height="222" key="GridCell.Tab.0.right" timestamp="1575961506630">
+    <state width="2534" height="363" key="GridCell.Tab.0.left/0.0.2560.1400@0.0.2560.1400" timestamp="1575979399900" />
+    <state width="2534" height="363" key="GridCell.Tab.0.right" timestamp="1575979399900">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state width="1768" height="222" key="GridCell.Tab.0.right/0.0.2560.1400/2560.0.1920.1040@0.0.2560.1400" timestamp="1575961506630" />
-    <state x="629" y="173" width="1469" height="883" key="SettingsEditor" timestamp="1575962936923">
+    <state width="2534" height="363" key="GridCell.Tab.0.right/0.0.2560.1400@0.0.2560.1400" timestamp="1575979399900" />
+    <state x="1754" y="239" key="RollbackChangesDialog" timestamp="1575980992988">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="1754" y="239" key="RollbackChangesDialog/0.0.2560.1400@0.0.2560.1400" timestamp="1575980992988" />
+    <state x="629" y="173" width="1469" height="883" key="SettingsEditor" timestamp="1575980064858">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="629" y="173" width="1469" height="883" key="SettingsEditor/0.0.2560.1400/2560.0.1920.1040@0.0.2560.1400" timestamp="1575962936923" />
+    <state x="629" y="173" key="SettingsEditor/0.0.2560.1400@0.0.2560.1400" timestamp="1575980064858" />
     <state x="355" y="326" key="Vcs.Push.Dialog.v2" timestamp="1575539650798">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
