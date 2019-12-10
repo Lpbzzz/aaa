@@ -10,8 +10,5 @@ module.exports = {
 			'@': path.resolve(__dirname, 'src/'),
 		},
 	},
-  compilerOptions:{
-
-  }
 	//插件
 };
