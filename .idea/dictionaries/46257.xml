@@ -1,9 +1,11 @@
 <component name="ProjectDictionaryState">
   <dictionary name="46257">
     <words>
+      <w>antd</w>
       <w>autoprefixer</w>
       <w>axios</w>
       <w>browserslist</w>
+      <w>dayjs</w>
       <w>dotenv</w>
       <w>flexbox</w>
       <w>pathinfo</w>
