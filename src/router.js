@@ -5,22 +5,24 @@
  */
 import React from 'react';
 
-import { Router, Route, Switch} from 'dva/router';
+import {Router, Route, Switch, Redirect} from 'dva/router';
+
 
 
 import PageIndex from '@/pages';
 
 
-
 function RouterConfig({history, app}) {
 
-	return (
-		<Router history={history}>
-			<Switch>
-				<Route path="/" exact component={() => <PageIndex/>}/>
-			</Switch>
-		</Router>
-	);
+    return (
+        <Router history={history}>
+            <Switch>
+                <Route path="/" exact component={() => <PageIndex/>}/>
+                <Route path="/b" component={() => <PageIndex message={'b'}/>}/>
+                <Redirect from={'/*'} to={'/'}/>
+            </Switch>
+        </Router>
+    );
 }
 
 export default RouterConfig;
