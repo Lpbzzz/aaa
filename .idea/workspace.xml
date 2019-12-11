@@ -2,11 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9a3e99e6-c8cb-440a-9872-63bffba391e8" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/46257.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dictionaries/46257.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Layout/setting.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/config-overrides.js" beforeDir="false" afterPath="$PROJECT_DIR$/config-overrides.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/webpack.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/config/webpack.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Layout/LeftRight_layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Layout/BasicLayout.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Layout/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Layout/index.less" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/index.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -128,7 +131,7 @@
       <workItem from="1575988126160" duration="303000" />
       <workItem from="1576028615886" duration="1404000" />
       <workItem from="1576030039154" duration="4198000" />
-      <workItem from="1576045849384" duration="5424000" />
+      <workItem from="1576045849384" duration="8141000" />
     </task>
     <task id="LOCAL-00001" summary="add dva but uncompleted">
       <created>1575539604301</created>
@@ -195,25 +198,25 @@
     </state>
     <state x="871" y="347" key="FileChooserDialogImpl/0.0.2560.1400/2560.0.1920.1040@0.0.2560.1400" timestamp="1576046852562" />
     <state x="871" y="347" key="FileChooserDialogImpl/0.0.2560.1400@0.0.2560.1400" timestamp="1575982199994" />
-    <state width="1785" height="176" key="GridCell.Tab.0.bottom" timestamp="1576051377338">
+    <state width="1785" height="427" key="GridCell.Tab.0.bottom" timestamp="1576054281197">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="1785" height="176" key="GridCell.Tab.0.bottom/0.0.2560.1400/2560.0.1920.1040@0.0.2560.1400" timestamp="1576051377338" />
+    <state width="1785" height="427" key="GridCell.Tab.0.bottom/0.0.2560.1400/2560.0.1920.1040@0.0.2560.1400" timestamp="1576054281197" />
     <state width="2534" height="362" key="GridCell.Tab.0.bottom/0.0.2560.1400@0.0.2560.1400" timestamp="1575988186811" />
-    <state width="1785" height="176" key="GridCell.Tab.0.center" timestamp="1576051377338">
+    <state width="1785" height="427" key="GridCell.Tab.0.center" timestamp="1576054281197">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="1785" height="176" key="GridCell.Tab.0.center/0.0.2560.1400/2560.0.1920.1040@0.0.2560.1400" timestamp="1576051377338" />
+    <state width="1785" height="427" key="GridCell.Tab.0.center/0.0.2560.1400/2560.0.1920.1040@0.0.2560.1400" timestamp="1576054281197" />
     <state width="2534" height="362" key="GridCell.Tab.0.center/0.0.2560.1400@0.0.2560.1400" timestamp="1575988186811" />
-    <state width="1785" height="176" key="GridCell.Tab.0.left" timestamp="1576051377338">
+    <state width="1785" height="427" key="GridCell.Tab.0.left" timestamp="1576054281196">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="1785" height="176" key="GridCell.Tab.0.left/0.0.2560.1400/2560.0.1920.1040@0.0.2560.1400" timestamp="1576051377338" />
+    <state width="1785" height="427" key="GridCell.Tab.0.left/0.0.2560.1400/2560.0.1920.1040@0.0.2560.1400" timestamp="1576054281196" />
     <state width="2534" height="362" key="GridCell.Tab.0.left/0.0.2560.1400@0.0.2560.1400" timestamp="1575988186810" />
-    <state width="1785" height="176" key="GridCell.Tab.0.right" timestamp="1576051377338">
+    <state width="1785" height="427" key="GridCell.Tab.0.right" timestamp="1576054281197">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="1785" height="176" key="GridCell.Tab.0.right/0.0.2560.1400/2560.0.1920.1040@0.0.2560.1400" timestamp="1576051377338" />
+    <state width="1785" height="427" key="GridCell.Tab.0.right/0.0.2560.1400/2560.0.1920.1040@0.0.2560.1400" timestamp="1576054281197" />
     <state width="2534" height="362" key="GridCell.Tab.0.right/0.0.2560.1400@0.0.2560.1400" timestamp="1575988186811" />
     <state x="1754" y="239" key="RollbackChangesDialog" timestamp="1575988437852">
       <screen x="0" y="0" width="2560" height="1400" />
@@ -228,10 +231,10 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="355" y="326" key="Vcs.Push.Dialog.v2/0.0.2560.1400/2560.0.1920.1040@0.0.2560.1400" timestamp="1575539650798" />
-    <state x="553" y="316" width="782" height="700" key="find.popup" timestamp="1576029923612">
+    <state x="553" y="316" width="824" height="710" key="find.popup" timestamp="1576051804443">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="553" y="316" width="782" height="700" key="find.popup/0.0.2560.1400/2560.0.1920.1040@0.0.2560.1400" timestamp="1576029923612" />
+    <state x="553" y="316" width="824" height="710" key="find.popup/0.0.2560.1400/2560.0.1920.1040@0.0.2560.1400" timestamp="1576051804443" />
     <state x="2974" y="377" key="org.intellij.images.editor.actions.BackgroundImageDialog" timestamp="1575950585159">
       <screen x="2560" y="0" width="1920" height="1040" />
     </state>

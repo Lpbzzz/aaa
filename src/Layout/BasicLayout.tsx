@@ -1,7 +1,8 @@
 import * as React from "react";
 import { useState } from "react";
 import { Icon, Layout, Menu } from 'antd';
-import './index.css'
+import '@/Layout/index.less';
+import styles from '@/Layout/setting.module.css';
 
 
 interface IRegisterUser {
@@ -50,7 +51,7 @@ let RegisterUser : React.FC<IRegisterUser> = () => {
 						minHeight : 280,
 					}}
 				>
-					Content
+					<div className={styles.red}>333</div>
 				</Content>
 			</Layout>
 		</Layout>
