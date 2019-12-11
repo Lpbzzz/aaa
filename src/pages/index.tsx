@@ -1,18 +1,14 @@
-import React from 'react'
-import Left from '@/components/Left'
-
-
+import React from 'react';
+import Layout from "@/Layout/LeftRight_layout";
 
 
 const Index = () => {
-    return (
-        <div>
-            3333
-            <Left/>
-            {/*<BasicLayout/>*/}
-        </div>
-    )
+	return (
+		<div>
+			<Layout/>
+		</div>
+	);
 };
 
 
-export default Index
+export default Index;

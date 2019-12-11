@@ -2,7 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9a3e99e6-c8cb-440a-9872-63bffba391e8" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/Layout/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Right.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/service/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/utils/localstorage.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/utils/request.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.eslintrc.js" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintrc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/46257.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dictionaries/46257.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Layout/LeftRight_layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Layout/LeftRight_layout.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Left.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Left.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/models/list.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/models/list.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/tsconfig.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,8 +43,8 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="javascript.nodejs.core.library.configured.version" value="10.16.3" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/.webpackalias.js" />
+    <property name="javascript.nodejs.core.library.configured.version" value="10.15.3" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/components" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.standard" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -43,11 +57,15 @@
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="yarn" />
-    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
-    <property name="ts.external.directory.path" value="C:\react\copy_system\node_modules\typescript\lib" />
+    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.TypeScript" />
+    <property name="ts.external.directory.path" value="C:\Company\rebuild-xchw\node_modules\typescript\lib" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Company\rebuild-xchw\src\utils" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Company\rebuild-xchw\src\components" />
       <recent name="C:\Company\rebuild-xchw" />
     </key>
   </component>
@@ -118,6 +136,9 @@
       <workItem from="1575982213139" duration="1497000" />
       <workItem from="1575986327597" duration="84000" />
       <workItem from="1575988126160" duration="303000" />
+      <workItem from="1576028615886" duration="1404000" />
+      <workItem from="1576030039154" duration="4198000" />
+      <workItem from="1576045849384" duration="3764000" />
     </task>
     <task id="LOCAL-00001" summary="add dva but uncompleted">
       <created>1575539604301</created>
@@ -161,10 +182,10 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="772" y="271" key="#ESLint/0.0.2560.1400/2560.0.1920.1040@0.0.2560.1400" timestamp="1575431863065" />
-    <state x="553" y="458" key="#com.intellij.ide.actions.ChooseComponentsToExportDialog" timestamp="1575982201119">
+    <state x="553" y="458" key="#com.intellij.ide.actions.ChooseComponentsToExportDialog" timestamp="1576046275779">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="553" y="458" key="#com.intellij.ide.actions.ChooseComponentsToExportDialog/0.0.2560.1400/2560.0.1920.1040@0.0.2560.1400" timestamp="1575956472708" />
+    <state x="553" y="458" key="#com.intellij.ide.actions.ChooseComponentsToExportDialog/0.0.2560.1400/2560.0.1920.1040@0.0.2560.1400" timestamp="1576046275779" />
     <state x="553" y="458" key="#com.intellij.ide.actions.ChooseComponentsToExportDialog/0.0.2560.1400@0.0.2560.1400" timestamp="1575982201119" />
     <state x="908" y="309" key="#start" timestamp="1575982908708">
       <screen x="0" y="0" width="2560" height="1400" />
@@ -179,48 +200,48 @@
     </state>
     <state x="0" y="83" key="DiffContextDialog/0.0.2560.1400/2560.0.1920.1040@0.0.2560.1400" timestamp="1575539506234" />
     <state x="0" y="83" key="DiffContextDialog/0.0.2560.1400@0.0.2560.1400" timestamp="1575988436162" />
-    <state x="871" y="347" key="FileChooserDialogImpl" timestamp="1575982199994">
+    <state x="871" y="347" key="FileChooserDialogImpl" timestamp="1576046852562">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="871" y="347" key="FileChooserDialogImpl/0.0.2560.1400/2560.0.1920.1040@0.0.2560.1400" timestamp="1575962935816" />
+    <state x="871" y="347" key="FileChooserDialogImpl/0.0.2560.1400/2560.0.1920.1040@0.0.2560.1400" timestamp="1576046852562" />
     <state x="871" y="347" key="FileChooserDialogImpl/0.0.2560.1400@0.0.2560.1400" timestamp="1575982199994" />
-    <state width="2534" height="362" key="GridCell.Tab.0.bottom" timestamp="1575988186811">
+    <state width="2533" height="184" key="GridCell.Tab.0.bottom" timestamp="1576049128235">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="1768" height="222" key="GridCell.Tab.0.bottom/0.0.2560.1400/2560.0.1920.1040@0.0.2560.1400" timestamp="1575961506631" />
+    <state width="2533" height="184" key="GridCell.Tab.0.bottom/0.0.2560.1400/2560.0.1920.1040@0.0.2560.1400" timestamp="1576049128235" />
     <state width="2534" height="362" key="GridCell.Tab.0.bottom/0.0.2560.1400@0.0.2560.1400" timestamp="1575988186811" />
-    <state width="2534" height="362" key="GridCell.Tab.0.center" timestamp="1575988186811">
+    <state width="2533" height="184" key="GridCell.Tab.0.center" timestamp="1576049128235">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="1768" height="222" key="GridCell.Tab.0.center/0.0.2560.1400/2560.0.1920.1040@0.0.2560.1400" timestamp="1575961506630" />
+    <state width="2533" height="184" key="GridCell.Tab.0.center/0.0.2560.1400/2560.0.1920.1040@0.0.2560.1400" timestamp="1576049128235" />
     <state width="2534" height="362" key="GridCell.Tab.0.center/0.0.2560.1400@0.0.2560.1400" timestamp="1575988186811" />
-    <state width="2534" height="362" key="GridCell.Tab.0.left" timestamp="1575988186810">
+    <state width="2533" height="184" key="GridCell.Tab.0.left" timestamp="1576049128235">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="1768" height="222" key="GridCell.Tab.0.left/0.0.2560.1400/2560.0.1920.1040@0.0.2560.1400" timestamp="1575961506630" />
+    <state width="2533" height="184" key="GridCell.Tab.0.left/0.0.2560.1400/2560.0.1920.1040@0.0.2560.1400" timestamp="1576049128235" />
     <state width="2534" height="362" key="GridCell.Tab.0.left/0.0.2560.1400@0.0.2560.1400" timestamp="1575988186810" />
-    <state width="2534" height="362" key="GridCell.Tab.0.right" timestamp="1575988186811">
+    <state width="2533" height="184" key="GridCell.Tab.0.right" timestamp="1576049128235">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="1768" height="222" key="GridCell.Tab.0.right/0.0.2560.1400/2560.0.1920.1040@0.0.2560.1400" timestamp="1575961506630" />
+    <state width="2533" height="184" key="GridCell.Tab.0.right/0.0.2560.1400/2560.0.1920.1040@0.0.2560.1400" timestamp="1576049128235" />
     <state width="2534" height="362" key="GridCell.Tab.0.right/0.0.2560.1400@0.0.2560.1400" timestamp="1575988186811" />
     <state x="1754" y="239" key="RollbackChangesDialog" timestamp="1575988437852">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="1754" y="239" key="RollbackChangesDialog/0.0.2560.1400@0.0.2560.1400" timestamp="1575988437852" />
-    <state x="323" y="173" width="2119" height="1009" key="SettingsEditor" timestamp="1575983551977">
+    <state x="706" y="208" width="1469" height="1029" key="SettingsEditor" timestamp="1576046854049">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="629" y="173" width="1469" height="883" key="SettingsEditor/0.0.2560.1400/2560.0.1920.1040@0.0.2560.1400" timestamp="1575962936923" />
+    <state x="706" y="208" width="1469" height="1029" key="SettingsEditor/0.0.2560.1400/2560.0.1920.1040@0.0.2560.1400" timestamp="1576046854049" />
     <state x="323" y="173" width="2119" height="1009" key="SettingsEditor/0.0.2560.1400@0.0.2560.1400" timestamp="1575983551977" />
     <state x="355" y="326" key="Vcs.Push.Dialog.v2" timestamp="1575539650798">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="355" y="326" key="Vcs.Push.Dialog.v2/0.0.2560.1400/2560.0.1920.1040@0.0.2560.1400" timestamp="1575539650798" />
-    <state x="553" y="316" width="782" height="684" key="find.popup" timestamp="1575944608868">
+    <state x="553" y="316" width="782" height="700" key="find.popup" timestamp="1576029923612">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="553" y="316" width="782" height="684" key="find.popup/0.0.2560.1400/2560.0.1920.1040@0.0.2560.1400" timestamp="1575944608868" />
+    <state x="553" y="316" width="782" height="700" key="find.popup/0.0.2560.1400/2560.0.1920.1040@0.0.2560.1400" timestamp="1576029923612" />
     <state x="2974" y="377" key="org.intellij.images.editor.actions.BackgroundImageDialog" timestamp="1575950585159">
       <screen x="2560" y="0" width="1920" height="1040" />
     </state>
